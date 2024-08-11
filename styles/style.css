@@ -96,6 +96,17 @@ body{
     top: 140px;
     left: 250px;
 }
+.right-arrow{
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    transform: rotate(90.00deg);
+    position: absolute;
+    top: 50%;
+    right: 400px;
+}
 .div-tutorial{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
