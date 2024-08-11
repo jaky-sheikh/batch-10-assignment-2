@@ -5,8 +5,13 @@
 @media screen and (max-width:576px) {
     .nav-hamburger{
         display: block;
+        color: rgb(200, 200, 200);
     }
     .para-home{
         display: none;
     }
+    .get-body-container{
+        flex-direction: column;
+    }
+    
 }
