@@ -7,3 +7,31 @@
 body{
     font-family: "Inter", sans-serif;
 }
+/* header design  */
+.header-container{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* navigation bar design  */
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+.para-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+#btn-fit{
+    color: rgb(230, 83, 60);
+    font-size: 26px;
+    font-weight: 800;
+}
+#btn-home{
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    border-radius: 45px;   
+}
