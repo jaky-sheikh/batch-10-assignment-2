@@ -1,0 +1,12 @@
+@media screen and (max-width:800px) {
+    
+}
+
+@media screen and (max-width:576px) {
+    .nav-hamburger{
+        display: block;
+    }
+    .para-home{
+        display: none;
+    }
+}
