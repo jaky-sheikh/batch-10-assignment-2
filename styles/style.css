@@ -166,6 +166,7 @@ body{
     margin: 0 auto;
     margin-top: 25px;
     border-radius: 8px;
+    padding: 20px;
 }
 .run-extra-content{
     margin-left: 15px;
@@ -190,8 +191,16 @@ body{
 }
 .run-extra-img{
     width: 300px;
-    height: 230px;
+    height: 230px; 
     border-radius: 12px;
     margin-top: 5px;
-    margin-right: 15px;
+    margin-right: 15px; 
+}
+/* BMI calculator part */
+.bmi-cal-content{
+    text-align: center;
+    margin-top: 25px;
+}
+.bmi-cal-content>h2{
+    color: white;
 }
