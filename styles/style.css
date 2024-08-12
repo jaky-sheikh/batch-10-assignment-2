@@ -16,7 +16,7 @@ body{
 .navbar-main{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 0 auto;
 }
 .para-home{
@@ -62,12 +62,15 @@ body{
 
 .btn-container{
     display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    margin-right: 3rem;
 }
-.btn-container>div>button{
-    width: 225px;
-    height: 60px;
+.btn-container>button{
+    width: 10rem;
+    height: 40px;
     border-radius: 45px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 #btn-back-color-1{
@@ -89,12 +92,12 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
-    width: 12rem;
-    height: 98px;
+    width: 9rem;
+    height: 70px;
     text-align: center;
     position: absolute;
-    top: 140px;
-    left: 250px;
+    top: 20%;
+    left: 60%;
 }
 .right-arrow{
     height: 0;
@@ -105,19 +108,19 @@ body{
     transform: rotate(90.00deg);
     position: absolute;
     top: 50%;
-    right: 400px;
+    right: 90%;
 }
 .div-tutorial{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
-    width: 12rem;
-    height: 98px;
+    width: 9rem;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    bottom: 70px;
-    right: 250px;
+    bottom: 13%;
+    right: 65%;
     
 }
 .div-circle{
@@ -125,4 +128,30 @@ body{
     width: 40px;
     height: 40px;
     background: rgb(230, 83, 60);
+}
+/* change habit part design */
+.body-container{
+    background: rgb(185, 185, 185);
+}
+.change-habit{
+    text-align: center;
+}
+#heading-color{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+/* round picture part design */
+.round-picture-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20px;
+}
+.round-picture-container>div>img{
+    border-radius: 50%;
+}
+.round-picture-container>div{
+    text-align: center;
 }

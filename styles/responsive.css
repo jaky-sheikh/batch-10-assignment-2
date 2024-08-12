@@ -13,5 +13,7 @@
     .get-body-container{
         flex-direction: column;
     }
-    
+    .round-picture-container{
+        flex-direction: column;
+    }
 }
