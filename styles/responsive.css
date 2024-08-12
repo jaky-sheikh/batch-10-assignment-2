@@ -16,4 +16,8 @@
     .round-picture-container{
         flex-direction: column;
     }
+    .run-extra-mile-container{
+        flex-direction: column;
+    }
+    
 }
