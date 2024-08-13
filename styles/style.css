@@ -196,11 +196,66 @@ body{
     margin-top: 5px;
     margin-right: 15px; 
 }
-/* BMI calculator part */
+/* BMI content part */
 .bmi-cal-content{
     text-align: center;
     margin-top: 25px;
 }
 .bmi-cal-content>h2{
+    color: white;
+}
+/* BMI calculator part */
+.bmi-container{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.table-part>h2{
+    color: white;
+    margin-top: 10px;
+}
+.table-container{
+    margin-top: 15px;
+}
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th{
+    color: white;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.input-part>h2{
+    color: white;
+    margin-top: 10px;
+}
+.input-part>p{
+    color: rgba(255, 255, 255, 0.5);
+}
+input, .sex-select{
+    width: 12.5rem;
+    height: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.activity-factor{
+    width: 25.3rem;
+    height: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.cal-btn{
+    width: 9rem;
+    height: 2.5rem;
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
     color: white;
 }

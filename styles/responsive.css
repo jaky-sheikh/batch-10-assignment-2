@@ -21,5 +21,9 @@
         width: 100%;
         height: auto;
     }
-    
+    .bmi-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
 }
