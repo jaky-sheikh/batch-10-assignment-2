@@ -316,3 +316,26 @@ iframe{
 .img-content>p{
     color: rgba(255, 255, 255, 0.5);
 }
+/* footer design */
+.footer-container{
+    background: #0301012d;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content>div>h1{
+    color: rgb(230, 83, 60);
+}
+.footer-content>div>h2{
+    color: white;
+}
+.footer-content>div>p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-weight: 400;
+}
+#reserved{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
