@@ -24,4 +24,9 @@
     .bmi-container{
         flex-direction: column;
     }
+    .own-part-container{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
 }

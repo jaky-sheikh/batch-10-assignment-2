@@ -247,10 +247,11 @@ input, .sex-select{
     border-radius: 8px;
 }
 .activity-factor{
-    width: 25.3rem;
+    width: 24rem;
     height: 2rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
+    margin-left: 2px;
 }
 .cal-btn{
     width: 9rem;
@@ -258,4 +259,22 @@ input, .sex-select{
     background: rgb(230, 83, 60);
     border-radius: 42px;
     color: white;
+}
+/* own part design */
+.own-part-container>div{
+    text-align: center;
+}
+.own-part-container>h1{
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+.own-video-part{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
 }
