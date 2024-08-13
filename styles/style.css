@@ -241,7 +241,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
 }
 input, .sex-select{
-    width: 12.5rem;
+    width: 12rem;
     height: 2rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
