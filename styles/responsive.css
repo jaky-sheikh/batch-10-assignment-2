@@ -29,4 +29,11 @@
         width: 100%;
         height: auto;
     }
+    .six-picture-container{
+        grid-template-columns: 1fr;
+        margin: 0 40px;
+    }
+    .img-container{
+        margin: 5px auto;
+    }
 }
