@@ -121,8 +121,7 @@ body{
     justify-content: space-evenly;
     position: absolute;
     bottom: 13%;
-    right: 65%;
-    
+    right: 65%;  
 }
 .div-circle{
     border-radius: 50%;

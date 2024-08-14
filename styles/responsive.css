@@ -3,6 +3,9 @@
 }
 
 @media screen and (max-width:576px) {
+    .navbar-main{
+        margin: 0 20px;
+    }
     .nav-hamburger{
         display: block;
         color: rgb(200, 200, 200);
